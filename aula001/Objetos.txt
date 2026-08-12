@@ -1,0 +1,5 @@
+Pizzaria
+
+Pizza > Sabor, Preço, Tamanho > Comprar(), Comer() 
+Massas > Tipo, Molho, Preço > Escolher(), Preparar()
+Bebidas > Preço, Tamanho, Sabor > Comprar(), Beber()
