@@ -1,20 +1,14 @@
 public class Main{ 
     public static void main(String[] args) {
-        Personagem gurreiro = new Personagem("Davi", 100, 25, 2);
+        Personagem guerreiro = new Personagem("Davi", 100, 25, 2);
         Personagem goblin = new Personagem("Laura", 20, 7, 1);
         Personagem mago = new Personagem("Roger", 50, 20, 2);
+        Personagem troll = new Personagem("Kaleb", 110, 15, 5);
 
-        gurreiro.exibirStatus();
+        guerreiro.exibirStatus();
         goblin.exibirStatus();
         mago.exibirStatus();
         
-        public class agregar {
-     public static void main(String() args) {
-
-        Personagem guerreiro = new Peronagem("Roger", 100, 30, 2);
-        Personagem troll = new Personagem("Troll", 110, 15, 5);
-        Personagem mago = new Personagem("Patolino", 80, 40, 10);
-
 
         guerreiro.exibirStatus();
         troll.exibirStatus();
@@ -30,17 +24,7 @@ public class Main{
 
         guerreiro.arma = espada;
 
-
-    }
-}
-        public class Narrar {
-    public static void main(String[] args) {
-
-        Personagem guerreiro = new Personagem("Roger", 100, 30, 2);
-        Personagem troll = new Personagem("Troll", 110, 15, 5);
-        Personagem mago = new Personagem("Patolino", 80, 40, 10);
-
-        System.out.println("===== INÍCIO DA BATALHA =====");
+         System.out.println("===== INÍCIO DA BATALHA =====");
 
         guerreiro.exibirStatus();
         troll.exibirStatus();
@@ -73,8 +57,6 @@ public class Main{
         if (mago.vida <= 0) {
             System.out.println(mago.nome + " morreu!");
         }
-    }
-}
-    }
 
+    }
 }
