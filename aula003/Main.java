@@ -1,3 +1,5 @@
+import aula005.arma;
+
 public class Main{ 
     public static void main(String[] args) {
         Personagem guerreiro = new Personagem("Davi", 100, 25, 2);

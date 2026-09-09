@@ -1,3 +1,5 @@
+import aula005.Personagem;
+
 public class Personagem {
 String nome;
 int nível;

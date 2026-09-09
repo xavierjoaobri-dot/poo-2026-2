@@ -1,3 +1,5 @@
+import aula005.Personagem;
+
 public class Main {
     public static void main(String[] args){
        Personagem Rei = new Personagem("Joao", 250, 50, 100);
