@@ -3,11 +3,6 @@ package aula001;
 public class FichaPessoal {
 
     public static void main(String[] args) {
-     
-    System.out.println("João Otavio");
-    System.out.println("17 Anos");
-    System.out.println("Joinville");
-
     
     String nome = "João";
     int idade = 17;
